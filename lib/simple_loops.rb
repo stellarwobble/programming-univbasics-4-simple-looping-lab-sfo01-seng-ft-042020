@@ -15,10 +15,10 @@ count +=1
 end 
 end
 
-def output_array(message, n)
+def output_array(array)
   count = 0 
-  while count<=n 
-  puts message
+  while count< array.length do
+  puts array[count]
   count +=1 
 end 
 end 
