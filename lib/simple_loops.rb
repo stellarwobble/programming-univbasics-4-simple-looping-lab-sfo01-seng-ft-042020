@@ -17,7 +17,7 @@ end
 
 def output_array(message, n)
   count = 0 
-  while count=n 
+  while count<=n 
   puts message
   count +=1 
 end 
